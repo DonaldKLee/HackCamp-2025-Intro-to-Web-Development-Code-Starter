@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #abecf4;
+}
+
+.about {
+    margin-top: 60px; /* Adds spacing above the container */
+}
+
+.profilepicture {
+    border-radius: 50%; /* Makes our image a circle */
+    height: 100px; /* Resizes our image (we no longer need the HTML attributes) */
+    width: 100px;
+    border: 1px solid white; /* Adds a 1px solid white border to our image  */
+    /* The below centers our image */
+    display: block; 
+    margin: 0 auto;
+}
+
+.name {
+    text-align: center; /* Aligns our text in the center */
+}
+
+.button {
+    background: white;
+    color: black; /* text colour */
+    display: block; /* Makes each button on it’s own line */
+    height: 60px;
+    width: 400px;
+    border-radius: 20px; 
+    margin: 20px auto; /* Adds spacing to the button and centers it */
+    text-decoration: none; /* Removes underline from hyperlink */
+    text-align: center;
+    font-weight: bold; /* Bolds the text */
+    line-height: 60px; /* Vertically aligns the text */
+    font-size: 20px;
+}
+
+.button_icon {
+    position: relative; /* Allows us to reposition our elements */
+    float: left; /* Moves our image to the left without affecting the elements relative to it */
+    width: 25px;
+    height: 25px;
+    left: 50px; /* Moves the image left by 50px */
+    top: 15px; /* Moves the image down by 15px to align it vertically */
+}
+
+.socials {
+    list-style-type: none; /* Removes the default bullet points on the list */
+    display: block;
+    margin: 0 auto;
+    padding: 0; /* Removes the default indent on the list */
+    text-align: center;
+}
+.socialli {
+    display: inline-block; /* Make the icons on the same line  */
+}
+.sociallogo {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%); /* Inverts the colour of our images */
+    margin: 10px; /* Adds spacing in between each logo  */
+}
