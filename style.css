@@ -39,6 +39,27 @@ body {
     font-size: 20px;
 }
 
+.button {
+    background: white;
+    color: black;
+    display: block;
+    height: 60px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 20px auto;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.button:hover {
+background: #2c6185;
+color: white;
+}
+
 .button_icon {
     position: relative; /* Allows us to reposition our elements */
     float: left; /* Moves our image to the left without affecting the elements relative to it */
@@ -85,4 +106,10 @@ body {
 
 .description {
 	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.button {
+       	 width: 300px;
+    	}
 }
