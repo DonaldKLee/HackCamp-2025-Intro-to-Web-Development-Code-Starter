@@ -1,7 +1,7 @@
-# nwHacks-2025-Intro-to-Web-Development-Code-Starter
+# HackCamp-2025-Intro-to-Web-Development-Code-Starter
 
 ```
-git clone https://github.com/DonaldKLee/nwHacks-2025-Intro-to-Web-Development-Code-Starter.git
+git clone https://github.com/DonaldKLee/HackCamp-2025-Intro-to-Web-Development-Code-Starter.git
 ```
 
 The starter code is in the main branch
